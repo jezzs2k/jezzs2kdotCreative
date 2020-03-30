@@ -9,12 +9,255 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./components/Navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="App">
-      <header class="header"></header>
+      <header class="header">
+        <div class="menu">
+          <nav
+            class="navbar navbar-expand-xl navbar-light bg-dark position-relative"
+            id="menu"
+          >
+            <a class="navbar-brand" href="#"
+              ><img src="../image/logo.png" alt="Logo"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto font-weight-bold">
+                <li class="nav-item position-relative mr-2 ml-2 ">
+                  <a class="nav-link text-light" href="#">Home</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item position-relative mr-2 ml-2">
+                  <a class="nav-link text-light" href="#">About</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item position-relative mr-2 ml-2">
+                  <a class="nav-link text-light" href="#">Services</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item position-relative mr-2 ml-2">
+                  <a class="nav-link text-light" href="#">Works</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item position-relative mr-2 ml-2">
+                  <a class="nav-link text-light" href="#">Pages</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item position-relative mr-2 ml-2">
+                  <a class="nav-link text-light" href="#">Blog</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item position-relative mr-2 ml-2">
+                  <a class="nav-link text-light" href="#">Contacts</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item position-relative mr-2 ml-2">
+                  <a class="nav-link text-light" href="#">Features</a>
+                  <ul
+                    class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
+                  >
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home1</a
+                      >
+                    </li>
+                    <li class="nav-item  mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home2</a
+                      >
+                    </li>
+                    <li class="nav-item mr-2 ml-2">
+                      <a class="nav-link nav-link-child text-dark" href="#"
+                        >Home3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="phone-num">
+                <span class="text-light">1-800</span>
+                <span class="text-warning">-123-4567</span>
+              </div>
+              <div class="form-search">
+                <input
+                  type="text"
+                  class="search"
+                  placeholder="search keyword"
+                />
+                <button class="btn btn-light rounded-circle btn-search">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
       <main class="main"></main>
       <footer class="footer"></footer>
     </div>
   </body>
+  <script src="./components/index.js"></script>
 </html>

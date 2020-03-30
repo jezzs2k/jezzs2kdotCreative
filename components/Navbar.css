@@ -108,4 +108,9 @@
   .navbar {
     height: auto;
   }
+
+  .form-search {
+    position: relative !important;
+    margin: 0;
+  }
 }
