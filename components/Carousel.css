@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item .carousel-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item .carousel-body .title {
+  font-size: 5rem;
+  font-weight: 200;
+}
+
+.carousel-item .carousel-body .text {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.h-btn {
+  width: 13rem;
+  height: 60px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .carousel-item .carousel-body {
+    left: 30%;
+    transform: translate(-30%, -50%);
+    text-align: start;
+  }
+
+  .carousel-item .carousel-body .h-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-item .carousel-body .h-button .h-btn {
+    width: 13rem;
+    height: 50px;
+    margin-left: 0 !important;
+  }
+
+  .carousel-item .carousel-body .title {
+    font-size: 4rem;
+    font-weight: 200;
+  }
+
+  .carousel-item .carousel-body .text {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-item .carousel-body {
+    left: 30%;
+    transform: translate(-30%, -50%);
+    text-align: start;
+  }
+
+  .carousel-item .carousel-body .h-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carousel-item .carousel-body .h-button .h-btn {
+    width: 8rem;
+    height: 40px;
+    margin-left: 0 !important;
+  }
+
+  .carousel-item .carousel-body .title {
+    font-size: 3rem;
+    font-weight: 200;
+  }
+
+  .carousel-item .carousel-body .text {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}

@@ -9,6 +9,10 @@
   transition: 0.3s ease;
 }
 
+.navbar.h-bg-dark {
+  background-color: rgba(31, 39, 50, 0.5) !important;
+}
+
 .navbar.h-fixed {
   position: fixed !important;
   top: 0;
@@ -89,6 +93,10 @@
 @media only screen and (max-width: 1200px) {
   .navbar .phone-num {
     display: none;
+  }
+
+  .navbar-nav .nav-item:first-child {
+    margin-left: 6px !important;
   }
 
   .navbar .navbar-nav-child {

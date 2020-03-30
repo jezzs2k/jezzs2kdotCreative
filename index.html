@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./components/Navbar.css" />
+    <link rel="stylesheet" href="./components/Carousel.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -41,7 +42,7 @@
       <header class="header">
         <div class="menu">
           <nav
-            class="navbar navbar-expand-xl navbar-light bg-dark position-relative"
+            class="navbar navbar-expand-xl navbar-light bg-dark h-bg-dark fixed-top opacity-(0-1)"
             id="menu"
           >
             <a class="navbar-brand" href="#"
@@ -60,7 +61,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto font-weight-bold">
-                <li class="nav-item position-relative mr-2 ml-2 ">
+                <li class="nav-item position-relative mr-2 ml-5  ">
                   <a class="nav-link text-light" href="#">Home</a>
                   <ul
                     class="navbar-nav navbar-nav-child d-xl-flex flex-column position-absolute bg-light text-center"
@@ -254,8 +255,140 @@
             </div>
           </nav>
         </div>
+        <div class="h-carousel">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-body">
+                  <h2 class="title">MODERN</h2>
+                  <h3 class="text">MARKETING & DESIGN THAT WORKS</h3>
+                  <p class="h-button">
+                    <button class="btn btn-warning h-btn mr-4 mt-3 text-light">
+                      GET START
+                    </button>
+                    <button
+                      class="btn btn-outline-warning h-btn ml-4 mt-3 text-light"
+                    >
+                      OUT FOLIO
+                    </button>
+                  </p>
+                </div>
+                <img
+                  class="d-block w-100"
+                  src="../image/slide/slide_02.jpg"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-body">
+                  <h2 class="title">MODERN</h2>
+                  <h3 class="text">MARKETING & DESIGN THAT WORKS</h3>
+                  <p class="h-button">
+                    <button class="btn btn-warning h-btn mr-4 mt-3 text-light">
+                      GET START
+                    </button>
+                    <button
+                      class="btn btn-outline-warning h-btn ml-4 mt-3 text-light"
+                    >
+                      OUT FOLIO
+                    </button>
+                  </p>
+                </div>
+                <img
+                  class="d-block w-100"
+                  src="../image/slide/slide_01.jpg"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-body">
+                  <h2 class="title">MODERN</h2>
+                  <h3 class="text">MARKETING & DESIGN THAT WORKS</h3>
+                  <p class="h-button">
+                    <button class="btn btn-warning h-btn mr-4 mt-3 text-light">
+                      GET START
+                    </button>
+                    <button
+                      class="btn btn-outline-warning h-btn ml-4 mt-3 text-light"
+                    >
+                      OUT FOLIO
+                    </button>
+                  </p>
+                </div>
+                <img
+                  class="d-block w-100"
+                  src="../image/slide/slide_03.jpg"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleControls"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
       </header>
-      <main class="main"></main>
+      <main class="main">
+        <div class="top">
+          <div class="about-us">
+            <img
+              src="./image/vertical_line.png"
+              class="mt-5 d-flex  ml-auto mr-auto"
+              alt="vertical"
+            />
+            <div class="text">
+              <h2 class="title text-center w-50 mt-5">
+                We are the one of the most effective Web Design Companies
+              </h2>
+              <p class="info text-center w-50 mt-4">
+                Getting online is easy. Succeeding online is a different story.
+                You’ll need more than just a beautiful website to stand out
+                these days.
+                <span class="font-weight-bold"
+                  >Online marketing solutions.</span
+                >
+                web design coupled with a lead generating marketing plan, your
+                online success is inevitable.
+              </p>
+            </div>
+          </div>
+          <img
+            src="./image/vertical_line.png"
+            class="mt-5 d-flex  ml-auto mr-auto"
+            alt="vertical"
+          />
+          <button
+            class="btn btn-warning h-btn mt-5 d-flex justify-content-center align-items-center ml-auto mr-auto text-light "
+          >
+            GET START
+          </button>
+        </div>
+      </main>
       <footer class="footer"></footer>
     </div>
   </body>
