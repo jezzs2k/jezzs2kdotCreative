@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  box-sizing: border-box;
+}
+
+.gallery-filter {
+  text-align: center;
+}
+
+.gallery-filter a.selector:first-child {
+  flex-grow: 1;
+}
+
+.gallery-filter a.active {
+  color: #e84393;
+}
+
+.gallery-filter a {
+  text-decoration: none;
+  color: #353b48;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.gallery-filter a:hover {
+  color: #e84393;
+}
+
+.slider button {
+  display: none !important;
+}
+
+.slider img {
+  max-height: 250px;
+  width: 100%;
+}

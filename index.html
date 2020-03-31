@@ -11,6 +11,13 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./components/Navbar.css" />
     <link rel="stylesheet" href="./components/Carousel.css" />
+    <link rel="stylesheet" href="./components/vertical-item.css" />
+    <link rel="stylesheet" href="./components/Gallery.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -40,13 +47,13 @@
   <body>
     <div class="App">
       <header class="header">
-        <div class="menu">
+        <div class="menu  fixed-top">
           <nav
-            class="navbar navbar-expand-xl navbar-light bg-dark h-bg-dark fixed-top opacity-(0-1)"
+            class="navbar navbar-expand-xl navbar-light h-bg-dark bg-dark"
             id="menu"
           >
             <a class="navbar-brand" href="#"
-              ><img src="../image/logo.png" alt="Logo"
+              ><img src="./image/logo.png" alt="Logo"
             /></a>
             <button
               class="navbar-toggler"
@@ -279,7 +286,7 @@
                 </div>
                 <img
                   class="d-block w-100"
-                  src="../image/slide/slide_02.jpg"
+                  src="./image/slide/slide_02.jpg"
                   alt="First slide"
                 />
               </div>
@@ -300,7 +307,7 @@
                 </div>
                 <img
                   class="d-block w-100"
-                  src="../image/slide/slide_01.jpg"
+                  src="./image/slide/slide_01.jpg"
                   alt="Second slide"
                 />
               </div>
@@ -321,7 +328,7 @@
                 </div>
                 <img
                   class="d-block w-100"
-                  src="../image/slide/slide_03.jpg"
+                  src="./image/slide/slide_03.jpg"
                   alt="Third slide"
                 />
               </div>
@@ -387,10 +394,314 @@
           >
             GET START
           </button>
+          <div class="h-list-media mt-5 container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12  col-xl-4">
+                <div class="vetical-item d-flex flex-column mt-3">
+                  <div class="media-item m-auto">
+                    <img
+                      src="./image/service_icon_1-1.png"
+                      class="w-100"
+                      alt="service_icon_1-1"
+                    />
+                  </div>
+                  <div class="vetical-body">
+                    <h2 class="title text-center mt-3">Marketing</h2>
+                    <p class="text text-center">
+                      We use strategic marketing tactics that have been proven
+                      to work.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12  col-xl-4">
+                <div class="vetical-item d-flex flex-column mt-3">
+                  <div class="media-item m-auto">
+                    <img
+                      src="./image/service_icon_2-1.png"
+                      class="w-100"
+                      alt="service_icon_1-1"
+                    />
+                  </div>
+                  <div class="vetical-body">
+                    <h2 class="title text-center mt-3">Development</h2>
+                    <p class="text text-center">
+                      Custom programming for most complex functions you can
+                      think.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12  col-xl-4">
+                <div class="vetical-item d-flex flex-column mt-3">
+                  <div class="media-item m-auto">
+                    <img
+                      src="./image/service_icon_3-1.png"
+                      class="w-100"
+                      alt="service_icon_3-1"
+                    />
+                  </div>
+                  <div class="vetical-body">
+                    <h2 class="title text-center mt-3">Web Design</h2>
+                    <p class="text text-center">
+                      Pork chop pork belly hamburger prosciutto, fatback
+                      andouille flank.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12  col-xl-4">
+                <div class="vetical-item d-flex flex-column mt-3">
+                  <div class="media-item m-auto">
+                    <img
+                      src="./image/service_icon_4-1.png"
+                      class="w-100"
+                      alt="service_icon_4-1"
+                    />
+                  </div>
+                  <div class="vetical-body">
+                    <h2 class="title text-center mt-3">SEO Optimization</h2>
+                    <p class="text text-center">
+                      Optimizing our web designs to rank on the first page of
+                      google is our specialty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12  col-xl-4">
+                <div class="vetical-item d-flex flex-column mt-3">
+                  <div class="media-item m-auto">
+                    <img
+                      src="./image/service_icon_5-1.png"
+                      class="w-100"
+                      alt="service_icon_5-1"
+                    />
+                  </div>
+                  <div class="vetical-body">
+                    <h2 class="title text-center mt-3">Ecommerce</h2>
+                    <p class="text text-center">
+                      We build your online store using a flexible, modular
+                      platform that allows
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-xl-4">
+                <div class="vetical-item d-flex flex-column mt-3">
+                  <div class="media-item m-auto">
+                    <img
+                      src="./image/service_icon_6-1.png"
+                      class="w-100"
+                      alt="service_icon_6-1"
+                    />
+                  </div>
+                  <div class="vetical-body">
+                    <h2 class="title text-center mt-3">Branding</h2>
+                    <p class="text text-center">
+                      A solid brand strategy, logo and guidelines help you to
+                      get You recognized.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="./image/vertical_line.png"
+            class="mt-5 d-flex  ml-auto mr-auto"
+            alt="vertical"
+          />
         </div>
+        <section class="process-part">
+          <img
+            src="./image/white_line_big.png"
+            class="d-flex  ml-auto mr-auto mb-4"
+            alt="vertical"
+          />
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="step-left">
+                  <h2 class="num">
+                    01
+                  </h2>
+                  <h2 class="name">Strategy</h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="step-center mt-2 mb-2">
+                  <img
+                    src="../image/step_img_1.jpg"
+                    class="rounded-circle img-step"
+                    alt="step_img_1.jpg"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <p class="text">
+                  We define your competition and target audience. Discover what
+                  is working in your online industry, then design your website
+                  accordingly.
+                </p>
+              </div>
+            </div>
+            <div class="row flex-row-reverse">
+              <div class="col-lg-4">
+                <div class="step-left">
+                  <h2 class="num">
+                    02
+                  </h2>
+                  <h2 class="name">Design</h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="step-center mt-2 mb-2">
+                  <img
+                    src="../image/step_img_1.jpg"
+                    class="rounded-circle img-step"
+                    alt="step_img_1.jpg"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <p class="text">
+                  We define your competition and target audience. Discover what
+                  is working in your online industry, then design your website
+                  accordingly.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="step-left">
+                  <h2 class="num">
+                    03
+                  </h2>
+                  <h2 class="name">Develop</h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="step-center mt-2 mb-2">
+                  <img
+                    src="../image/step_img_1.jpg"
+                    class="rounded-circle img-step"
+                    alt="step_img_1.jpg"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <p class="text">
+                  We define your competition and target audience. Discover what
+                  is working in your online industry, then design your website
+                  accordingly.
+                </p>
+              </div>
+            </div>
+            <div class="row flex-row-reverse">
+              <div class="col-lg-4">
+                <div class="step-left">
+                  <h2 class="num">
+                    04
+                  </h2>
+                  <h2 class="name">Support</h2>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="step-center mt-2 mb-2">
+                  <img
+                    src="../image/step_img_1.jpg"
+                    class="rounded-circle img-step"
+                    alt="step_img_1.jpg"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <p class="text">
+                  We define your competition and target audience. Discover what
+                  is working in your online industry, then design your website
+                  accordingly.
+                </p>
+              </div>
+            </div>
+            <img
+              src="./image/white_line_big.png"
+              class="d-flex mt-5  ml-auto mr-auto pb-5"
+              alt="vertical"
+            />
+          </div>
+          <button
+            class="btn btn-light h-btn mb-3 d-flex justify-content-center align-items-center ml-auto mr-auto text-dark font-weight-bold"
+          >
+            GET START
+          </button>
+        </section>
+        <img
+          src="./image/vertical_line.png"
+          class="mt-5 d-flex  ml-auto mr-auto mb-4"
+          alt="vertical"
+        />
+        <section>
+          <div class="gallery-filter">
+            <a href="#" data-filter="*" class="selector ml-3 mr-3">All</a>
+            <a href="#" data-filter=".web_design" class="selector ml-3 mr-3"
+              >WEB DESIGN</a
+            >
+            <a href="#" data-filter=".logo_design" class="selector ml-3 mr-3"
+              >LOGO DESIGN</a
+            >
+            <a href="#" data-filter=".adventisement" class="selector ml-3 mr-3"
+              >ADVERTISEMENT</a
+            >
+            <a href="#" data-filter=".branding" class="selector ml-3 mr-3"
+              >BRADING</a
+            >
+            <a href="#" data-filter=".design" class="selector ml-3 mr-3"
+              >DESIGN</a
+            >
+            <a href="#" data-filter=".photo" class="selector ml-3 mr-3"
+              >PHOTO</a
+            >
+          </div>
+
+          <div class="slider mt-5 mb-5">
+            <div>
+              <img src="../image/gallery-1.jpg" alt="" />
+            </div>
+            <div>
+              <img src="../image/gallery-2.jpg" alt="" />
+            </div>
+            <div>
+              <img src="../image/gallery-3.jpg" alt="" />
+            </div>
+            <div>
+              <img src="../image/gallery-4.jpg" alt="" />
+            </div>
+            <div>
+              <img src="../image/gallery-5.jpg" alt="" />
+            </div>
+            <div>
+              <img src="../image/gallery-6.jpg" alt="" />
+            </div>
+          </div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <p
+          class="text-center font-weight-bold text-light d-flex align-items-center h-100 justify-content-center p-0 mb-0"
+        >
+          © COPYRIGHT 2020
+        </p>
+      </footer>
+      <a href="#">
+        <div class="scroll-top" id="scroll-top"></div>
+      </a>
     </div>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./components/Gallery.js"></script>
+    <script src="./components/index.js"></script>
+    <script src="./index.js"></script>
   </body>
-  <script src="./components/index.js"></script>
 </html>

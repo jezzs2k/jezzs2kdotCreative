@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - filter</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Gallery.css" />
+  </head>
+  <body>
+    <div class="gallery-filter">
+      <a href="#" data-filter="*" class="selector ml-3 mr-3">All</a>
+      <a href="#" data-filter=".web_design" class="selector ml-3 mr-3"
+        >WEB DESIGN</a
+      >
+      <a href="#" data-filter=".logo_design" class="selector ml-3 mr-3"
+        >LOGO DESIGN</a
+      >
+      <a href="#" data-filter=".adventisement" class="selector ml-3 mr-3"
+        >ADVERTISEMENT</a
+      >
+      <a href="#" data-filter=".branding" class="selector ml-3 mr-3">BRADING</a>
+      <a href="#" data-filter=".design" class="selector ml-3 mr-3">DESIGN</a>
+      <a href="#" data-filter=".photo" class="selector ml-3 mr-3">PHOTO</a>
+    </div>
+
+    <div class="slider">
+      <div>
+        <img src="../image/gallery-1.jpg" alt="" />
+      </div>
+      <div>
+        <img src="../image/gallery-2.jpg" alt="" />
+      </div>
+      <div>
+        <img src="../image/gallery-3.jpg" alt="" />
+      </div>
+      <div>
+        <img src="../image/gallery-4.jpg" alt="" />
+      </div>
+      <div>
+        <img src="../image/gallery-5.jpg" alt="" />
+      </div>
+      <div>
+        <img src="../image/gallery-6.jpg" alt="" />
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./Gallery.js"></script>
+  </body>
+</html>
